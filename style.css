@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* <--------- NavBar ---------> */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5.7rem;
+}
+
+.logo {
+    width: 11.5rem;
+    height: 3.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0rem 1rem;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.right-nav {
+
+    margin-left: 51rem;
+}
+
+button {
+    width: 17rem;
+    height: 4.5rem;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    border: .2rem solid black;
+    border-radius: .4rem;
+}
+
+.right-nav img {
+    width: 6rem;
+    height: 5rem;
+    top: 2.8rem;
+    position: relative;
+}
+
+.rotate {
+    transform: rotate(-22deg);
+}
+
+
+/* <-------------------- Header ---------------------------> */
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 2rem 11rem;
+
+}
+
+.bg-img {
+    position: absolute;
+    left: 18rem;
+    top: 2rem;
+    height: 36.5rem;
+    width: 38rem;
+    z-index: -1;
+}
+
+.left-head {
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+
+.left-head h1 {
+    font-size: 5.5rem;
+}
+
+.left-head p {
+    color: rgb(64, 62, 62);
+    margin-top: 1.5rem;
+}
+
+.sub-left {
+    display: flex;
+    margin-top: 1.5rem;
+
+}
+
+.sub-left span {
+    display: flex;
+    width: 13.4rem;
+    margin-left: 1.5rem;
+}
+
+.head-img {
+    height: 20rem;
+    width: 35rem;
+}
+
+.right-head {
+    flex-basis: 50%;
+}
+
+.bg-img-1 {
+    height: 50rem;
+    position: relative;
+    left: 27rem;
+}
+
+.bg-img-2 {
+    height: 50rem;
+    position: absolute;
+    left: 86rem;
+}
+
+.bg-img-3 {
+    top: 11.5rem;
+    height: 50rem;
+    position: absolute;
+    left: 75.5rem;
+}
+
+.bg-img-4 {
+    height: 15rem;
+    position: absolute;
+    left: 87.5rem;
+    top: 47.5rem;
+    width: 20.5rem;
+    transform: rotate(-18deg);
+}
+
+/* <--------------Feature------------------> */
+.Fcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.feature-img-1 {
+    position: absolute;
+    right: 0rem;
+    top: 58rem;
+}
+
+.feature-img-2 {
+    position: absolute;
+    right: 0rem;
+}
+
+.feature-left-col {
+    flex-basis: 60%;
+}
+
+.feature-bg-1 {
+    width: 40rem;
+    height: 32rem;
+
+}
+
+.feature-bg-2 {
+    width: 34rem;
+    height: 40rem;
+    position: absolute;
+    left: 13rem;
+
+}
+
+.feature-bg-3 {
+    width: 34rem;
+    height: 40rem;
+    position: absolute;
+    left: 15rem;
+}
+
+.feature-bg-4 {
+    width: 34rem;
+    height: 40rem;
+    position: absolute;
+    left: 17rem;
+}
+
+.feature-bg-5 {
+    width: 32rem;
+    height: 48rem;
+    position: absolute;
+    left: 18rem;
+}
+
+.feature-right-col {
+    flex-basis: 50%;
+
+}
+
+.feature-text {
+    max-width: 50rem;
+    margin-right: 10rem;
+
+}
+
+.feature-text span,
+.adv-text span {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+/* <-----------------------Advantages-------------------> */
+.advantages {
+    display: flex;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+.adv-left-col {
+    flex-basis: 60%;
+}
+.adv-text {
+   
+    margin-left: 10rem;
+    margin-top: 35rem;
+
+}
+.adv-text p{
+    margin-top: 2rem;
+}
+.adv-text span img{
+    width: 2rem;
+    height: 2.3rem;
+    margin-right: .5rem;
+}
+.adv-right-col{
+    flex-basis: 60%;
+}
+
+.adv-bg-2 {
+    width: 34rem;
+    height: 40rem;
+    position: absolute;
+    right: 6rem;
+
+}
+.adv-right-col img {
+    position: absolute;
+}
+
+.adv-bg-3 {
+    width: 34rem;
+    height: 40rem;
+    right: 7rem;
+}
+
+.adv-bg-4 {
+    width: 34rem;
+    height: 40rem;
+    right: 8rem;
+}
+
+.adv-bg-5 {
+    width: 32rem;
+    height: 48rem;
+    right: 4rem;
+}
+
+.adv-bg-6 {
+        height: 11rem;
+        right: 6.5rem;
+        margin-top: 17.1rem;
+}
+/* <--------About--------> */
+.About img{
+        width: 95%;
+        height: 46rem;
+        margin-top: 16rem;
+        margin-left: 2rem;
+}
+
+
+@media screen and (max-width:1000px) {
+html{
+    font-size: 45%;
+
+    .right-head{
+        display: none;
+    }
+    .head-img{
+        display: none;
+    }
+    .Fcontainer{
+        display: block;
+        margin-left: 20rem;  
+        margin-top: 10rem;
+    }
+    .feature-img-1,.feature-img-2{
+        display: none;
+    }
+    .feature-text{
+        margin-top: 10rem;
+    }
+    .advantages{
+        display: block;
+    }
+    .adv-right-col{
+        display: none;
+    }
+    .adv-text p{ 
+        width: 20rem;
+    }
+    .About img{
+       width: 50%;
+       height: 32rem;
+    }
+
+}
+}
+
+
+@media screen and (max-width:600px) {
+html{
+    font-size: 35%;
+    .right-head{
+        display: none;
+    }
+    .head-img{
+        display: none;
+    }
+    .Fcontainer{
+        display: block;
+        margin-left: 20rem;  
+        margin-top: 10rem;
+    }
+    .feature-img-1,.feature-img-2{
+        display: none;
+    }
+    .feature-text{
+        margin-top: 10rem;
+    }
+    .advantages{
+        display: block;
+    }
+    .adv-right-col{
+        display: none;
+    }
+    .adv-text p{ 
+        width: 20rem;
+    }
+    .About img{
+       width: 50%;
+       height: 32rem;
+    }
+}
+}
+
+
+@media screen and (max-width:400px) {
+    html{
+        font-size: 25%;
+        .right-head{
+            display: none;
+        }
+        .head-img{
+            display: none;
+        }
+        .Fcontainer{
+            display: block;
+            margin-left: 20rem;  
+            margin-top: 10rem;
+        }
+        .feature-img-1,.feature-img-2{
+            display: none;
+        }
+        .feature-text{
+            margin-top: 10rem;
+        }
+        .advantages{
+            display: block;
+        }
+        .adv-right-col{
+            display: none;
+        }
+        .adv-text p{ 
+            width: 20rem;
+        }
+        .About img{
+           width: 50%;
+           height: 32rem;
+        }
+    
+    }
+    } 
